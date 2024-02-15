@@ -1,1 +1,50 @@
 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+#about {
+    margin-bottom: 40px;
+}
+
+#games {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+.game {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.game img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+.game-title {
+    font-weight: bold;
+}
+
+.game-details {
+    display: none;
+    margin-top: 10px;
+}
+
+/* Add more styles as needed */
