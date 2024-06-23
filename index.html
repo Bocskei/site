@@ -194,9 +194,9 @@
 							<span class="classgreen">C++</span>
 							<span class="classblue">Detailed Documentation</span>
 						</div>
-						<p>For my Bachelor's Thesis, I developed a physics-based game in <b>Unreal Engine 5</b> over six months, this was my first bigger project in UE5. 
+						<p>For my Bachelor's Thesis, I developed a physics-based game in Unreal Engine 5 over six months, this was my first bigger project in UE5. 
 							<br>
-							Featuring a dynamic point <b>scoring system, game over mechanics, multipliers, and wormholes</b>, the game offers multiple ways to bounce actors using built-in physics and custom components.
+							Featuring a dynamic point scoring system, game over mechanics, multipliers, and wormholes, the game offers multiple ways to bounce actors using built-in physics and custom components.
 							<br><br>
 							<b>Platform: </b>PC
 							<br><b>Duration: </b> 6 months<br>
@@ -303,8 +303,8 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 text-center">
-						<div class="section-title contact-me">
-							<h2>Contact Me at : <h1>danielbocskei@gmail.com</h1></h2>
+						<div class="section-title contact-me" onclick="copyEmail()">
+							<h2>Contact Me at : <h1 id="email">danielbocskei@gmail.com</h1></h2>
 							<div class="col-lg-12 text-center">
 							</div>
 						</div>
@@ -321,5 +321,11 @@
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/SmoothScroll.js"></script>
 		<script src="js/theme-scripts.js"></script>
+		<script>
+			function copyEmail(){
+  				navigator.clipboard.writeText("danielbocskei@gmail.com");
+  				alert("Email address copied to clipboard");
+			}
+		</script>
 	</body>
 </html>
